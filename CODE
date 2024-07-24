@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Sagar's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="profile-photo.jpg" alt="Sai Sagar" class="profile-photo">
+            <h1>Sai Sagar</h1>
+            <p>Student at Vellore Institute of Technology (VIT-AP University)</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Motivated CSBS student at VIT AP University | Skilled in programming, data analysis, and business strategy | Actively seeking mentorship and internship opportunities to further develop my skills. Committed to driving innovation and positive change. Committed to continuous improvement and exploring diverse opportunities in the tech and business sectors.</p>
+        </div>
+    </section>
+    
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: Java, Python, C++</li>
+                <li>Web Development: HTML, CSS, JavaScript</li>
+                <li>Databases: MySQL, MongoDB</li>
+                <li>Other: Git, Agile Methodologies</li>
+                <li>Leadership, Weka, SQL, Social Media, Graphic Design (Figma), Posters, Presentation Skills, Analytical Skills, Strategic Planning, Business Analysis, Corporate Social Responsibility, Microsoft Office, Teamwork, Data Analysis, AI, R, Machine Learning, Problem Solving, Business English, Business Strategy, Business Development, Data Mining</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="job">
+                <img src="csi-logo.png" alt="CSI VIT-AP Chapter" class="logo">
+                <h3>Design Team V.CODE, CSI VIT-AP Chapter</h3>
+                <p><strong>Nov 2022 - Jan 2024</strong></p>
+                <p>Graphic Design, Poster Design, and other related skills at VITAP (On-site).</p>
+            </div>
+            <div class="job">
+                <img src="primo-grad-logo.png" alt="PrimoGrad" class="logo">
+                <h3>Project, PrimoGrad (Apprenticeship)</h3>
+                <p><strong>Oct 2022 - Dec 2022</strong></p>
+                <p>Worked on a project during an apprenticeship at Amaravati, Andhra Pradesh, India.</p>
+            </div>
+            <!-- Add more experiences as needed -->
+        </div>
+    </section>
+    
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="school">
+                <img src="vit-ap-logo.png" alt="VIT-AP University" class="logo">
+                <h3>VIT-AP University</h3>
+                <p><strong>B.TECH Computer Science and Business Systems (CSBS)</strong></p>
+                <p><strong>Mar 2021 - Jun 2025</strong></p>
+            </div>
+            <div class="school">
+                <img src="siddharth-institute-logo.png" alt="Siddharth Institute of Engineering & Technology" class="logo">
+                <h3>Siddharth Institute of Engineering & Technology, Puttur</h3>
+                <p><strong>Artificial intelligence and database, Artificial Intelligence</strong></p>
+                <p><strong>Dec 2020</strong></p>
+            </div>
+            <div class="school">
+                <img src="gurukula-kangri-logo.png" alt="Gurukula Kangri Vishwavidyalaya" class="logo">
+                <h3>Gurukula Kangri Vishwavidyalaya</h3>
+                <p><strong>Information technology</strong></p>
+                <p><strong>Oct 2020 - Dec 2020</strong></p>
+            </div>
+            <div class="school">
+                <img src="nri-group-logo.png" alt="NRI Group of Institute" class="logo">
+                <h3>NRI Group of Institute</h3>
+                <p><strong>Intermediate, MPC IIT</strong></p>
+                <p><strong>Jun 2017 - Dec 2019</strong></p>
+                <p>Activities and societies: NIT PONDICHERRY visit, JEE MAINS seat allotment at NIT PONDICHERRY</p>
+            </div>
+            <div class="school">
+                <img src="universal-school-logo.png" alt="Universal School" class="logo">
+                <h3>Universal School</h3>
+                <p><strong>Jun 2009 - Mar 2019</strong></p>
+                <p>Grade: A</p>
+                <p>Activities and societies: NCC CAPITAN (CPL) / RDC CAMP</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Description of project 1.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Description of project 2.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me via <a href="https://www.linkedin.com/in/sai-sagar-682a42238" target="_blank">LinkedIn</a>.</p>
+            <p>Email: <a href="mailto:saisagar200123@gmail.com">saisagar200123@gmail.com</a></p>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sai Sagar. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+h1, h2, h3 {
+    margin: 0.5em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em 0;
+    background-color: white;
+    margin: 1em 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 0.5em 0;
+}
+
+.project, .job, .school {
+    background-color: #f9f9f9;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 5px;
+    position: relative;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
